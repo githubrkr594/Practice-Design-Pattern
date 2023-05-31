@@ -100,6 +100,7 @@ public class SplitwiseApp {
                 return;
             }
             sharedByUsers.add(user);
+            // test
         }
 
         Expense expense = new Expense(paidBy,expenseType, sharedByUsers, shareOfUsers);
